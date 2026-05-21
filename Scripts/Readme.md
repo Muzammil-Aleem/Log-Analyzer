@@ -11,6 +11,7 @@ That's it. No pip install, no virtualenv, no config files.
 Generating test data
 
 python scripts/generate_logs.py
+
 python scripts/generate_logs.py -n 50000 -o big.log
 
 The generator deliberately mixes in the same edge cases the analyzer handles:
